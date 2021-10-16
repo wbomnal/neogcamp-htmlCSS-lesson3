@@ -40,4 +40,12 @@ margin: auto;
     text-decoration: none
 }
 
-/**
+/**nobullets for inline**/
+.nonBullet{
+    list-style: none;
+}
+
+.inlineList{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
