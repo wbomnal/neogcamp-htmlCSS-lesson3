@@ -1,6 +1,43 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
 
+:root{
+    --primary-color:#2563EB;
+}
+
+
 body{
     font-family: 'PT Sans Caption', sans-serif;
-}s
+}
+
+.container
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.centContainer
+{
+max-width: 600px;
+margin: auto;
+}
+/**links**/
+
+
+.linkPrimary{
+    border: 1px solid var(--primary-color); 
+    border-radius: 0.5rem;
+    color:var(--primary-color); 
+    padding: 0.5rem 1rem;
+    text-decoration: none
+}
+
+
+.linkSecondary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;  
+    padding: 0.5rem 1rem;
+    text-decoration: none
+}
+
+/**
