@@ -24,13 +24,17 @@ margin: auto;
 }
 /**links**/
 
+.link{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
 
 .linkPrimary{
     border: 1px solid var(--primary-color); 
     border-radius: 0.5rem;
     color:var(--primary-color); 
     padding: 0.5rem 1rem;
-    text-decoration: none
+    text-decoration: none;
 }
 
 
@@ -39,7 +43,7 @@ margin: auto;
     border-radius: 0.5rem;
     color: white;  
     padding: 0.5rem 1rem;
-    text-decoration: none
+    text-decoration: none;
 }
 
 /**nobullets for inline**/
@@ -92,7 +96,10 @@ border-bottom-left-radius: 1rem;
 
 .hero .heroHead{
     color: var(--head-color );
+    text-align: center;
+    
 }
+
 
 /**section css**/
 
@@ -108,3 +115,23 @@ border-bottom-left-radius: 1rem;
 background-color:var(--ow-color );
 
 }
+
+/**footer**/
+.footer{
+    background-color: var(--primary-color);
+color : white;
+padding: 1rem;
+text-align: center;
+border-bottom-right-radius: 1rem;
+}
+
+.footer .link{
+    color : white;
+
+}
+
+.footer{
+    padding-inline-start: 0px;
+}
+
+
