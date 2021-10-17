@@ -3,6 +3,8 @@
 
 :root{
     --primary-color:#2563EB;
+    --ow-color:#D1D5DB;
+    --head-color: #6B7280;
 }
 
 
@@ -75,4 +77,34 @@ border-bottom-left-radius: 1rem;
 
 .navigation .active{
     font-weight: bold;
+}
+
+/**header**/
+
+.hero{
+    padding:2rem;
+}
+.hero .heroImg{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+ }
+
+.hero .heroHead{
+    color: var(--head-color );
+}
+
+/**section css**/
+
+.section{
+    padding: 1rem;
+}
+.section h1{
+    text-align: center ;
+    
+}
+
+.ow{
+background-color:var(--ow-color );
+
 }
