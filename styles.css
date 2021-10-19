@@ -134,3 +134,7 @@ body {
 .footer {
     padding-inline-start: 0px;
 }
+.footerHead{
+    font-weight: bold;
+    font-size: large;
+}
